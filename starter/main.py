@@ -9,9 +9,9 @@ from starter.ml.model import inference
 
 
 app = FastAPI()
-model = pickle.load(open('starter/model/model.pkl', 'rb'))
-encoder = pickle.load(open('starter/model/encoder.pkl', 'rb'))
-lb = pickle.load(open('starter/model/lb.pkl', 'rb'))
+model = pickle.load(open('model/model.pkl', 'rb'))
+encoder = pickle.load(open('model/encoder.pkl', 'rb'))
+lb = pickle.load(open('model/lb.pkl', 'rb'))
 
 
 class Feature(BaseModel):
