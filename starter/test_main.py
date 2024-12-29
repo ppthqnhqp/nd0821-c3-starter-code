@@ -31,19 +31,19 @@ def test_post_predict_less_than_equal_50k():
 
 def test_post_predict_greater_than_50k():
     feature = {
-        "age": 50,
+        "age": 42,
         "workclass": "Private",
-        "fnlgt": 234721,
+        "fnlgt": 116632,
         "education": "Doctorate",
         "education_num": 16,
         "marital_status": "Married-civ-spouse",
-        "occupation": "Exec-managerial",
+        "occupation": "Prof-specialty",
         "relationship": "Husband",
         "race": "White",
         "sex": "Male",
         "capital_gain": 0,
         "capital_loss": 0,
-        "hours_per_week": 60,
+        "hours_per_week": 45,
         "native_country": "United-States"
     }
     response = client.post("/", json=feature)

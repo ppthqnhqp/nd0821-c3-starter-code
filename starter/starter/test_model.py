@@ -19,7 +19,7 @@ def test_compute_model_metrics():
     assert fbeta == 0.6666666666666666
 
 def test_inference():
-    X_train = np.array([[1, 2], [3, 4], [5, 6], [7s, 8]])
+    X_train = np.array([[1, 2], [3, 4], [5, 6], [7, 8]])
     y_train = np.array([0, 1, 0, 1])
     model = train_model(X_train, y_train)
     X_test = np.array([[1, 2], [3, 4]])
