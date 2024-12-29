@@ -36,11 +36,11 @@ def test_inference():
     assert all(isinstance(pred, np.integer) for pred in preds)
 
 def test_model_output_size():
-    X_test = np.array([[1, 2], [3, 4], [5, 6]])
+    X_test = np.random.rand(3, 108)  # assuming 108 features
     preds = inference(model, X_test)
     assert preds.shape == (3,)
 
-def test_model_predictions():
+def test_model_predictions_1():
     feature = {
         "age": 42,
         "workclass": "Private",
@@ -57,7 +57,7 @@ def test_model_predictions():
         "hours_per_week": 45,
         "native_country": "United-States"
     }
-    feature = {key.replace('_', '-'): [value] for key, value in feature.__dict__.items()}
+    feature = {key.replace('_', '-'): [value] for key, value in feature.items()}
     data = pd.DataFrame.from_dict(feature)
 
     cat_features = [
@@ -73,12 +73,42 @@ def test_model_predictions():
     X, _, _, _ = process_data(data, categorical_features=cat_features, label=None, 
         training=False, encoder=encoder, lb=lb)
     pred = inference(model, X)[0]
-    return {'predict':'Less than or equal to 50K'} if pred == 0 else {'predict':'Greater than 50K'}
+    assert pred == 1
 
-def test_preprocessing():
-    X_test = np.array([[1, 2], [3, 4]])
-    X_transformed = encoder.transform(X_test)
-    assert X_transformed.shape == (2, X_test.shape[1]) 
+def test_model_predictions_2():
+    feature = {
+        "age": 39,
+        "workclass": "State-gov",
+        "fnlgt": 77516,
+        "education": "Bachelors",
+        "education_num": 13,
+        "marital_status": "Never-married",
+        "occupation": "Adm-clerical",
+        "relationship": "Not-in-family",
+        "race": "White",
+        "sex": "Female",
+        "capital_gain": 2174,
+        "capital_loss": 0,
+        "hours_per_week": 40,
+        "native_country": "United-States"
+    }
+    feature = {key.replace('_', '-'): [value] for key, value in feature.items()}
+    data = pd.DataFrame.from_dict(feature)
+
+    cat_features = [
+        "workclass",
+        "education",
+        "marital-status",
+        "occupation",
+        "relationship",
+        "race",
+        "sex",
+        "native-country",
+    ]
+    X, _, _, _ = process_data(data, categorical_features=cat_features, label=None, 
+        training=False, encoder=encoder, lb=lb)
+    pred = inference(model, X)[0]
+    assert pred != 0
 
 if __name__ == "__main__":
     pytest.main()
