@@ -1,0 +1,322 @@
+Evaluating model performance on slices of data for feature: workclass
+	* Feature workclass: State-gov
+		Data points: 1298
+		Precision: 0.9508670520231214, recall: 0.9320113314447592, fbeta: 0.9413447782546495
+	* Feature workclass: Self-emp-not-inc
+		Data points: 2541
+		Precision: 0.950937950937951, recall: 0.9102209944751382, fbeta: 0.9301340860973888
+	* Feature workclass: Private
+		Data points: 22696
+		Precision: 0.9525987525987526, recall: 0.92323191617973, fbeta: 0.9376854599406529
+	* Feature workclass: Federal-gov
+		Data points: 960
+		Precision: 0.9722991689750693, recall: 0.9460916442048517, fbeta: 0.9590163934426229
+	* Feature workclass: Local-gov
+		Data points: 2093
+		Precision: 0.9393442622950819, recall: 0.9286871961102107, fbeta: 0.9339853300733496
+	* Feature workclass: ?
+		Data points: 1836
+		Precision: 0.9333333333333333, recall: 0.806282722513089, fbeta: 0.8651685393258426
+	* Feature workclass: Self-emp-inc
+		Data points: 1116
+		Precision: 0.9660194174757282, recall: 0.9598070739549839, fbeta: 0.9629032258064516
+	* Feature workclass: Without-pay
+		Data points: 14
+		Precision: 1.0, recall: 1.0, fbeta: 1.0
+	* Feature workclass: Never-worked
+		Data points: 7
+		Precision: 1.0, recall: 1.0, fbeta: 1.0
+--------------------------------------------------
+Evaluating model performance on slices of data for feature: education
+	* Feature education: Bachelors
+		Data points: 5355
+		Precision: 0.9479402444545043, recall: 0.9428185502026114, fbeta: 0.945372460496614
+	* Feature education: HS-grad
+		Data points: 10501
+		Precision: 0.938295165394402, recall: 0.8805970149253731, fbeta: 0.9085309516476748
+	* Feature education: 11th
+		Data points: 1175
+		Precision: 0.9636363636363636, recall: 0.8833333333333333, fbeta: 0.9217391304347826
+	* Feature education: Masters
+		Data points: 1723
+		Precision: 0.9757639620653319, recall: 0.9655891553701773, fbeta: 0.9706498951781971
+	* Feature education: 9th
+		Data points: 514
+		Precision: 1.0, recall: 0.8518518518518519, fbeta: 0.92
+	* Feature education: Some-college
+		Data points: 7291
+		Precision: 0.9466869763899467, recall: 0.8961788031723144, fbeta: 0.9207407407407406
+	* Feature education: Assoc-acdm
+		Data points: 1067
+		Precision: 0.9610894941634242, recall: 0.9320754716981132, fbeta: 0.946360153256705
+	* Feature education: Assoc-voc
+		Data points: 1382
+		Precision: 0.9487179487179487, recall: 0.9224376731301939, fbeta: 0.9353932584269662
+	* Feature education: 7th-8th
+		Data points: 646
+		Precision: 0.9705882352941176, recall: 0.825, fbeta: 0.8918918918918919
+	* Feature education: Doctorate
+		Data points: 413
+		Precision: 0.9770491803278688, recall: 0.9738562091503268, fbeta: 0.9754500818330606
+	* Feature education: Prof-school
+		Data points: 576
+		Precision: 0.9721577726218097, recall: 0.9905437352245863, fbeta: 0.9812646370023419
+	* Feature education: 5th-6th
+		Data points: 333
+		Precision: 1.0, recall: 0.8125, fbeta: 0.896551724137931
+	* Feature education: 10th
+		Data points: 933
+		Precision: 0.9649122807017544, recall: 0.8870967741935484, fbeta: 0.9243697478991597
+	* Feature education: 1st-4th
+		Data points: 168
+		Precision: 1.0, recall: 0.6666666666666666, fbeta: 0.8
+	* Feature education: Preschool
+		Data points: 51
+		Precision: 1.0, recall: 1.0, fbeta: 1.0
+	* Feature education: 12th
+		Data points: 433
+		Precision: 0.9666666666666667, recall: 0.8787878787878788, fbeta: 0.9206349206349207
+--------------------------------------------------
+Evaluating model performance on slices of data for feature: marital-status
+	* Feature marital-status: Never-married
+		Data points: 10683
+		Precision: 0.9931506849315068, recall: 0.8859470468431772, fbeta: 0.9364908503767491
+	* Feature marital-status: Married-civ-spouse
+		Data points: 14976
+		Precision: 0.9477193514168814, recall: 0.9345487148834429, fbeta: 0.9410879542547589
+	* Feature marital-status: Divorced
+		Data points: 4443
+		Precision: 0.975669099756691, recall: 0.8660907127429806, fbeta: 0.9176201372997711
+	* Feature marital-status: Married-spouse-absent
+		Data points: 418
+		Precision: 1.0, recall: 0.6764705882352942, fbeta: 0.8070175438596492
+	* Feature marital-status: Separated
+		Data points: 1025
+		Precision: 1.0, recall: 0.8636363636363636, fbeta: 0.9268292682926829
+	* Feature marital-status: Married-AF-spouse
+		Data points: 23
+		Precision: 1.0, recall: 0.9, fbeta: 0.9473684210526316
+	* Feature marital-status: Widowed
+		Data points: 993
+		Precision: 1.0, recall: 0.7764705882352941, fbeta: 0.8741721854304636
+--------------------------------------------------
+Evaluating model performance on slices of data for feature: occupation
+	* Feature occupation: Adm-clerical
+		Data points: 3770
+		Precision: 0.926, recall: 0.9132149901380671, fbeta: 0.9195630585898709
+	* Feature occupation: Exec-managerial
+		Data points: 4066
+		Precision: 0.9585677749360614, recall: 0.9522357723577236, fbeta: 0.9553912821820035
+	* Feature occupation: Handlers-cleaners
+		Data points: 1370
+		Precision: 0.9866666666666667, recall: 0.8604651162790697, fbeta: 0.9192546583850931
+	* Feature occupation: Prof-specialty
+		Data points: 4140
+		Precision: 0.9657608695652173, recall: 0.9558902635825712, fbeta: 0.9608002162746687
+	* Feature occupation: Other-service
+		Data points: 3295
+		Precision: 0.9747899159663865, recall: 0.8467153284671532, fbeta: 0.90625
+	* Feature occupation: Sales
+		Data points: 3650
+		Precision: 0.9491701244813278, recall: 0.930824008138352, fbeta: 0.9399075500770416
+	* Feature occupation: Craft-repair
+		Data points: 4099
+		Precision: 0.930045871559633, recall: 0.8729817007534983, fbeta: 0.9006107717934481
+	* Feature occupation: Transport-moving
+		Data points: 1597
+		Precision: 0.9691780821917808, recall: 0.884375, fbeta: 0.9248366013071896
+	* Feature occupation: Farming-fishing
+		Data points: 994
+		Precision: 0.970873786407767, recall: 0.8695652173913043, fbeta: 0.9174311926605504
+	* Feature occupation: Machine-op-inspct
+		Data points: 2002
+		Precision: 0.9491525423728814, recall: 0.896, fbeta: 0.9218106995884775
+	* Feature occupation: Tech-support
+		Data points: 928
+		Precision: 0.9454545454545454, recall: 0.9187279151943463, fbeta: 0.9318996415770608
+	* Feature occupation: ?
+		Data points: 1843
+		Precision: 0.9333333333333333, recall: 0.806282722513089, fbeta: 0.8651685393258426
+	* Feature occupation: Protective-serv
+		Data points: 649
+		Precision: 0.9365853658536586, recall: 0.909952606635071, fbeta: 0.923076923076923
+	* Feature occupation: Armed-Forces
+		Data points: 9
+		Precision: 1.0, recall: 1.0, fbeta: 1.0
+	* Feature occupation: Priv-house-serv
+		Data points: 149
+		Precision: 1.0, recall: 1.0, fbeta: 1.0
+--------------------------------------------------
+Evaluating model performance on slices of data for feature: relationship
+	* Feature relationship: Not-in-family
+		Data points: 8305
+		Precision: 0.9818181818181818, recall: 0.883177570093458, fbeta: 0.9298892988929889
+	* Feature relationship: Husband
+		Data points: 13193
+		Precision: 0.9488148402610787, recall: 0.9334234538695505, fbeta: 0.9410562180579216
+	* Feature relationship: Wife
+		Data points: 1568
+		Precision: 0.9391534391534392, recall: 0.9530201342281879, fbeta: 0.9460359760159892
+	* Feature relationship: Own-child
+		Data points: 5068
+		Precision: 1.0, recall: 0.8059701492537313, fbeta: 0.8925619834710743
+	* Feature relationship: Unmarried
+		Data points: 3446
+		Precision: 1.0, recall: 0.7844036697247706, fbeta: 0.8791773778920309
+	* Feature relationship: Other-relative
+		Data points: 981
+		Precision: 1.0, recall: 0.8108108108108109, fbeta: 0.8955223880597014
+--------------------------------------------------
+Evaluating model performance on slices of data for feature: race
+	* Feature race: White
+		Data points: 27816
+		Precision: 0.9529871257051931, recall: 0.9256709287621189, fbeta: 0.9391304347826086
+	* Feature race: Black
+		Data points: 3124
+		Precision: 0.9518716577540107, recall: 0.9198966408268734, fbeta: 0.9356110381077529
+	* Feature race: Asian-Pac-Islander
+		Data points: 1039
+		Precision: 0.9548872180451128, recall: 0.9202898550724637, fbeta: 0.937269372693727
+	* Feature race: Amer-Indian-Eskimo
+		Data points: 311
+		Precision: 0.9666666666666667, recall: 0.8055555555555556, fbeta: 0.8787878787878789
+	* Feature race: Other
+		Data points: 271
+		Precision: 0.9, recall: 0.72, fbeta: 0.7999999999999999
+--------------------------------------------------
+Evaluating model performance on slices of data for feature: sex
+	* Feature sex: Male
+		Data points: 21790
+		Precision: 0.9524691358024692, recall: 0.9264485139597718, fbeta: 0.939278648607518
+	* Feature sex: Female
+		Data points: 10771
+		Precision: 0.9554764024933214, recall: 0.9100932994062765, fbeta: 0.9322328410078193
+--------------------------------------------------
+Evaluating model performance on slices of data for feature: native-country
+	* Feature native-country: United-States
+		Data points: 29170
+		Precision: 0.9527298850574712, recall: 0.9246966950216149, fbeta: 0.9385039983016065
+	* Feature native-country: Cuba
+		Data points: 95
+		Precision: 0.9259259259259259, recall: 1.0, fbeta: 0.9615384615384615
+	* Feature native-country: Jamaica
+		Data points: 81
+		Precision: 1.0, recall: 0.9, fbeta: 0.9473684210526316
+	* Feature native-country: India
+		Data points: 100
+		Precision: 0.972972972972973, recall: 0.9, fbeta: 0.935064935064935
+	* Feature native-country: ?
+		Data points: 583
+		Precision: 0.9562043795620438, recall: 0.8972602739726028, fbeta: 0.9257950530035336
+	* Feature native-country: Mexico
+		Data points: 643
+		Precision: 1.0, recall: 0.7878787878787878, fbeta: 0.8813559322033898
+	* Feature native-country: South
+		Data points: 80
+		Precision: 0.9333333333333333, recall: 0.875, fbeta: 0.9032258064516129
+	* Feature native-country: Puerto-Rico
+		Data points: 114
+		Precision: 0.8571428571428571, recall: 1.0, fbeta: 0.923076923076923
+	* Feature native-country: Honduras
+		Data points: 13
+		Precision: 1.0, recall: 1.0, fbeta: 1.0
+	* Feature native-country: England
+		Data points: 90
+		Precision: 1.0, recall: 0.9, fbeta: 0.9473684210526316
+	* Feature native-country: Canada
+		Data points: 121
+		Precision: 1.0, recall: 1.0, fbeta: 1.0
+	* Feature native-country: Germany
+		Data points: 137
+		Precision: 0.9333333333333333, recall: 0.9545454545454546, fbeta: 0.9438202247191012
+	* Feature native-country: Iran
+		Data points: 43
+		Precision: 0.9444444444444444, recall: 0.9444444444444444, fbeta: 0.9444444444444444
+	* Feature native-country: Philippines
+		Data points: 198
+		Precision: 0.9473684210526315, recall: 0.8852459016393442, fbeta: 0.9152542372881356
+	* Feature native-country: Italy
+		Data points: 73
+		Precision: 0.9545454545454546, recall: 0.84, fbeta: 0.8936170212765958
+	* Feature native-country: Poland
+		Data points: 60
+		Precision: 1.0, recall: 0.9166666666666666, fbeta: 0.9565217391304348
+	* Feature native-country: Columbia
+		Data points: 59
+		Precision: 0.6666666666666666, recall: 1.0, fbeta: 0.8
+	* Feature native-country: Cambodia
+		Data points: 19
+		Precision: 1.0, recall: 1.0, fbeta: 1.0
+	* Feature native-country: Thailand
+		Data points: 18
+		Precision: 1.0, recall: 1.0, fbeta: 1.0
+	* Feature native-country: Ecuador
+		Data points: 28
+		Precision: 1.0, recall: 0.75, fbeta: 0.8571428571428571
+	* Feature native-country: Laos
+		Data points: 18
+		Precision: 1.0, recall: 1.0, fbeta: 1.0
+	* Feature native-country: Taiwan
+		Data points: 51
+		Precision: 0.9090909090909091, recall: 1.0, fbeta: 0.9523809523809523
+	* Feature native-country: Haiti
+		Data points: 44
+		Precision: 1.0, recall: 0.75, fbeta: 0.8571428571428571
+	* Feature native-country: Portugal
+		Data points: 37
+		Precision: 1.0, recall: 0.75, fbeta: 0.8571428571428571
+	* Feature native-country: Dominican-Republic
+		Data points: 70
+		Precision: 1.0, recall: 1.0, fbeta: 1.0
+	* Feature native-country: El-Salvador
+		Data points: 106
+		Precision: 1.0, recall: 0.7777777777777778, fbeta: 0.8750000000000001
+	* Feature native-country: France
+		Data points: 29
+		Precision: 1.0, recall: 1.0, fbeta: 1.0
+	* Feature native-country: Guatemala
+		Data points: 64
+		Precision: 1.0, recall: 1.0, fbeta: 1.0
+	* Feature native-country: China
+		Data points: 75
+		Precision: 0.9047619047619048, recall: 0.95, fbeta: 0.9268292682926829
+	* Feature native-country: Japan
+		Data points: 62
+		Precision: 0.9583333333333334, recall: 0.9583333333333334, fbeta: 0.9583333333333334
+	* Feature native-country: Yugoslavia
+		Data points: 16
+		Precision: 0.8571428571428571, recall: 1.0, fbeta: 0.923076923076923
+	* Feature native-country: Peru
+		Data points: 31
+		Precision: 0.6666666666666666, recall: 1.0, fbeta: 0.8
+	* Feature native-country: Outlying-US(Guam-USVI-etc)
+		Data points: 14
+		Precision: 1.0, recall: 1.0, fbeta: 1.0
+	* Feature native-country: Scotland
+		Data points: 12
+		Precision: 1.0, recall: 1.0, fbeta: 1.0
+	* Feature native-country: Trinadad&Tobago
+		Data points: 19
+		Precision: 1.0, recall: 1.0, fbeta: 1.0
+	* Feature native-country: Greece
+		Data points: 29
+		Precision: 1.0, recall: 1.0, fbeta: 1.0
+	* Feature native-country: Nicaragua
+		Data points: 34
+		Precision: 1.0, recall: 0.5, fbeta: 0.6666666666666666
+	* Feature native-country: Vietnam
+		Data points: 67
+		Precision: 0.8333333333333334, recall: 1.0, fbeta: 0.9090909090909091
+	* Feature native-country: Hong
+		Data points: 20
+		Precision: 1.0, recall: 1.0, fbeta: 1.0
+	* Feature native-country: Ireland
+		Data points: 24
+		Precision: 1.0, recall: 1.0, fbeta: 1.0
+	* Feature native-country: Hungary
+		Data points: 13
+		Precision: 1.0, recall: 0.6666666666666666, fbeta: 0.8
+	* Feature native-country: Holand-Netherlands
+		Data points: 1
+		Precision: 1.0, recall: 1.0, fbeta: 1.0
+--------------------------------------------------
