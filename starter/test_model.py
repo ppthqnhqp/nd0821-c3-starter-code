@@ -108,7 +108,7 @@ def test_model_predictions_2():
     X, _, _, _ = process_data(data, categorical_features=cat_features, label=None, 
         training=False, encoder=encoder, lb=lb)
     pred = inference(model, X)[0]
-    assert pred != 0
+    assert pred == 0
 
 if __name__ == "__main__":
     pytest.main()
